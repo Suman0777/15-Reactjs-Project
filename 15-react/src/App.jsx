@@ -4,12 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Accordion from './component data/accordian'
 import StarRating from './component data/StarRating'
-
+import ImageSlider from './component data/image-Slider'
 function App() {
   return (
     <>
       {/* <Accordion /> */}
-      <StarRating noOfstar = {10} />
+      {/* <StarRating noOfstar = {10} /> */}
+      <ImageSlider 
+        url={"https://picsum.photos/v2/list"}
+        page={"1"}
+        limit={"10"}
+      />
     </>
   )
 }
