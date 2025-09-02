@@ -4,15 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Accordion from './component data/accordian'
 import StarRating from './component data/StarRating'
-import QrCodeGenerate from './component data/Qr-Code-Genrate'
+import Qr from './component data/Qr-Code-Genrate'
 function App() {
   return (
     <>
       {/* <Accordion /> */}
       {/* <StarRating noOfstar = {10} /> */}
-      <QrCodeGenerate />
+      < Qr />
     </>
-  )
+  );
 }
 
 export default App
