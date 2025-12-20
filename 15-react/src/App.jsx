@@ -11,8 +11,8 @@ function App() {
     <>
       {/* <Accordion /> */}
       {/* <StarRating noOfstar = {10} /> */}
-      {/* < Qr /> */}
-      < Tabss />
+      < Qr />
+      {/* < Tabss /> */}
     </>
   );
 }
