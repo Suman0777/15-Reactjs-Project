@@ -6,13 +6,15 @@ import Accordion from './component data/accordian'
 import StarRating from './component data/StarRating'
 import Qr from './component data/Qr-Code-Genrate'
 import Tabss from './component data/Tabs'
+import Texttoimage from './component data/imgaeGenration/Texttoimage'
 function App() {
   return (
     <>
       {/* <Accordion /> */}
       {/* <StarRating noOfstar = {10} /> */}
-      < Qr />
+      {/* < Qr /> */}
       {/* < Tabss /> */}
+      <Texttoimage/>
     </>
   );
 }
