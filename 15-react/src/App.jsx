@@ -7,6 +7,7 @@ import StarRating from './component data/StarRating'
 import Qr from './component data/Qr-Code-Genrate'
 import Tabss from './component data/Tabs'
 import Texttoimage from './component data/imgaeGenration/Texttoimage'
+import { DotBackgroundDemo } from './component data/GidTesting/Gridtestingbox'
 function App() {
   return (
     <>
@@ -14,7 +15,8 @@ function App() {
       {/* <StarRating noOfstar = {10} /> */}
       {/* < Qr /> */}
       {/* < Tabss /> */}
-      <Texttoimage/>
+      {/* <Texttoimage/> */}
+      <DotBackgroundDemo />
     </>
   );
 }
